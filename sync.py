@@ -3,7 +3,7 @@ import aiohttp
 import asyncio
 import time
 
-key = "ede33c43f98f2c9618528f750ae98b9e"
+key = "YOUR_KEY"
 def get_weather_sync(city, api_key):
     url = "https://api.openweathermap.org/data/2.5/weather"
     params = {"q": city, "appid": api_key, "units": "metric"}
